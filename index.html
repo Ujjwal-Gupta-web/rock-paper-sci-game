@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>StonePaperSci</title>
+</head>
+<body>
+    <h2 style="text-align: center;margin-top: 25px; margin-bottom: 30px; color:rgb(255, 72, 72); font-weight: bolder; text-decoration: underline;">Stone Paper Scissors Game</h2>
+    <div class="container">
+
+        <div id="player-1" class="start">
+            <div class="winner-1"></div>
+            <div class="player-name">Player</div>
+            <div id="selected-1"></div>
+            <div id="choices-1">
+                <img src="stone-left.png" id="stone-1"/>
+                <img src="paper-left.png" id="paper-1"/>
+                <img src="sci-left.png" id="sci-1"/>
+            </div>
+        </div>
+
+        <div id='disp'>
+            <div id="out">Let's GO</div>
+            <hr/>
+            <div>
+                <button class="btn" onclick="window.location.reload()">
+                    <i class="fas fa-redo"></i>
+                    Retry
+                </button>
+            </div>
+        </div>
+
+        <div id="player-2">
+            <div class="winner-2"></div>
+            <div class="player-name">Computer</div>
+            <div id="selected-2"></div>
+            <div id="choices-2"></div>
+        </div>
+
+    </div>
+
+    
+</body>
+<script src="./script.js"></script>
+</html>
