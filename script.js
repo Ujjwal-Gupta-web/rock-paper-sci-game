@@ -14,7 +14,7 @@ switch(computer){
     break;
 }
 
-console.log(compSelected);
+// console.log(compSelected);
 
 document.getElementById('stone-1').addEventListener('click',()=>{
     x=1;
