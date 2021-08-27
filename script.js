@@ -92,28 +92,32 @@ function winner(){
     else {
         if(x==1 && computer==2){
             document.getElementById('out').innerHTML='You lost it';
-            document.querySelector('.winner-2').innerHTML='<img src="./winner.gif"/>';
+            setTimeout(()=>document.querySelector('.winner-2').innerHTML='<img src="./winner.gif"/>',1200);
+            
             
             setTimeout(express,600,'Noooo!!!!','YEah....');
         console.log('computer');
     }
     else if(x==2 && computer==3){
         document.getElementById('out').innerHTML='You lost it';
-        document.querySelector('.winner-2').innerHTML='<img src="./winner.gif"/>';
+        setTimeout(()=>document.querySelector('.winner-2').innerHTML='<img src="./winner.gif"/>',1200);
+        
         
         setTimeout(express,600,'Noooo!!!!','YEah....');
         console.log('computer');
     }
     else if(x==3 && computer==1){
         document.getElementById('out').innerHTML='You lost it';
-        document.querySelector('.winner-2').innerHTML='<img src="./winner.gif"/>';
+        setTimeout(()=>document.querySelector('.winner-2').innerHTML='<img src="./winner.gif"/>',1200);
+        
         
         setTimeout(express,600,'Noooo!!!!','YEah....');
         console.log('computer');
     }
     else{
         document.getElementById('out').innerHTML='You WON';
-        document.querySelector('.winner-1').innerHTML='<img src="./winner.gif"/>';
+        setTimeout(()=>document.querySelector('.winner-1').innerHTML='<img src="./winner.gif"/>',1200);
+        
         
         setTimeout(express,600,'YEah....','Noooo!!!!');
         console.log('user');
